@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                     new InputStreamReader(getAssets().open("dataeng.txt"), "UTF-8"));
             //Yazma hatası giderildi....
             // do reading, usually loop until end of file reading
+            //yorum satırı eklendi
             String mLine;
             while ((mLine = reader.readLine()) != null) {
                 //process line
