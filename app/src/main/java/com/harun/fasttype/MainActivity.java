@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
             //Yazma hatası giderildi....
             // do reading, usually loop until end of file reading
             //yorum satırı eklendi
+            //asdasdasdasdas
             String mLine;
             while ((mLine = reader.readLine()) != null) {
                 //process line
